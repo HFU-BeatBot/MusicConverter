@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="ws.schild.jave.all.deps" type="repository">
+    <properties maven-id="ws.schild:jave-all-deps:3.2.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ws/schild/jave-all-deps/3.2.0/jave-all-deps-3.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ws/schild/jave-core/3.2.0/jave-core-3.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ws/schild/jave-nativebin-win32/3.2.0/jave-nativebin-win32-3.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ws/schild/jave-nativebin-win64/3.2.0/jave-nativebin-win64-3.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ws/schild/jave-nativebin-linux32/3.2.0/jave-nativebin-linux32-3.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ws/schild/jave-nativebin-linux64/3.2.0/jave-nativebin-linux64-3.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ws/schild/jave-nativebin-osx64/3.2.0/jave-nativebin-osx64-3.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ws/schild/jave-nativebin-linux-arm32/3.2.0/jave-nativebin-linux-arm32-3.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/ws/schild/jave-nativebin-linux-arm64/3.2.0/jave-nativebin-linux-arm64-3.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
