@@ -15,4 +15,5 @@ eg. <br>
 +++classical/ <br>
 +++... <br>
 All subdirectories (genres) and will get copied to the output/ directory. All .wav files will get copied to their respective subdirectories
-and all .mp3 files will get converted and then saved as .wav in the output directory
+and all .mp3 files will get converted and then saved as .wav in the output directory <br>
+Afterwards the program will extract the features from the songs in the output directory and write them into the .csv 
