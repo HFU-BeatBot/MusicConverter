@@ -4,8 +4,22 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/output" />
+      <excludeFolder url="file://$MODULE_DIR$/input/blues" />
+      <excludeFolder url="file://$MODULE_DIR$/input/classical" />
+      <excludeFolder url="file://$MODULE_DIR$/input/country" />
+      <excludeFolder url="file://$MODULE_DIR$/input/disco" />
+      <excludeFolder url="file://$MODULE_DIR$/input/hiphop" />
+      <excludeFolder url="file://$MODULE_DIR$/input/jazz" />
+      <excludeFolder url="file://$MODULE_DIR$/input/metal" />
+      <excludeFolder url="file://$MODULE_DIR$/input/pop" />
+      <excludeFolder url="file://$MODULE_DIR$/input/reggae" />
+      <excludeFolder url="file://$MODULE_DIR$/input/rock" />
+      <excludeFolder url="file://$MODULE_DIR$/fmaThings" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="guicedee.services.commons.math3" level="project" />
+    <orderEntry type="library" name="ws.schild.jave.all.deps" level="project" />
   </component>
 </module>
