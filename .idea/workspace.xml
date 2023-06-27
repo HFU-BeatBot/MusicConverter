@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c7089cc-e938-4e02-8710-a7e409fdf65e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5c7089cc-e938-4e02-8710-a7e409fdf65e" name="Changes" comment="Made the program a bit safer, so that if the output dir doesn't exist, it gets created, and if the input dir doesn't exist, the program shuts down (no input).">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MusicConverter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MusicConverter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/Queen_-_Bohemain_Rhapsody_Official_Video.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -118,8 +118,19 @@
       <workItem from="1686089296732" duration="108000" />
       <workItem from="1686125872866" duration="64000" />
       <workItem from="1686125951293" duration="85000" />
-      <workItem from="1686180208707" duration="1082000" />
+      <workItem from="1686180208707" duration="1508000" />
+      <workItem from="1686192138041" duration="266000" />
+      <workItem from="1687632210447" duration="586000" />
+      <workItem from="1687632855740" duration="8955000" />
     </task>
+    <task id="LOCAL-00001" summary="Made the program a bit safer, so that if the output dir doesn't exist, it gets created, and if the input dir doesn't exist, the program shuts down (no input).">
+      <created>1686181601271</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686181601271</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,5 +146,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made the program a bit safer, so that if the output dir doesn't exist, it gets created, and if the input dir doesn't exist, the program shuts down (no input)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made the program a bit safer, so that if the output dir doesn't exist, it gets created, and if the input dir doesn't exist, the program shuts down (no input)." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

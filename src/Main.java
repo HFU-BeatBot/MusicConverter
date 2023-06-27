@@ -91,7 +91,7 @@ public class Main {
         } catch (FileFormatNotSupportedException e) {
             throw new RuntimeException(e);
         }
-        for(int i = 0; i+AUDIO_SNIPPET_LENGTH < songLength; i=i+AUDIO_SNIPPET_LENGTH) {
+        for(int i = 0; i+AUDIO_SNIPPET_LENGTH <= songLength; i=i+AUDIO_SNIPPET_LENGTH) {
             int finalI = i;
             executor.execute(() -> {
                 String filename = f.getName().substring(0,f.getName().length()-4)+ finalI +"s_to"+(finalI+AUDIO_SNIPPET_LENGTH)+"s.wav,";
@@ -164,6 +164,7 @@ public class Main {
         //this loop iterates over all subdirectories of the input directory
         for(File directory : Objects.requireNonNull(inputDirectory.listFiles(File::isDirectory))) {
             File outputDirectory = new File("output/"+directory.getName());
+            System.out.println("Created the "+outputDirectory.getName()+" directory in output dir.");
             if(!outputDirectory.exists()) {
                 if(!outputDirectory.mkdir()) {
                     throw new RuntimeException("Could not create directory.");
@@ -178,7 +179,7 @@ public class Main {
         for(File f : Objects.requireNonNull(directory.listFiles())) { //iterate over all files
             if(f.getName().endsWith(".mp3")) { //if file ends on .mp3
                 try {
-                    convertMp3ToWav(f, outputDirectory.getPath());
+                    convertMp3ToWav(f, outputDirectory.getPath()+"/");
                 } catch (EncoderException e) {
                     e.printStackTrace();
                 }
@@ -206,5 +207,6 @@ public class Main {
         encodingAttributes.setOutputFormat("wav");
         encodingAttributes.setAudioAttributes(audioAttributes);
         encoder.encode(object,output,encodingAttributes);
+        System.out.println("Created: "+output.getName());
     }
 }
